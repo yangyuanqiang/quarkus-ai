@@ -1,0 +1,7 @@
+quarkus:
+  log:
+    level: DEBUG
+  rest-client:
+    logging:
+      scope: request-response
+      body-limit: 1000
